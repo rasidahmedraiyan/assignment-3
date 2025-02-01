@@ -41,11 +41,57 @@
 </head>
 <body class="font-ADLaM">
     <!-- Header Section -->
-    <header class="md:container mx-auto">
-        
+    <header class="bg-[#FFF9F4] border-b-2 lg:border-none border-gray-400">
+        <!-- NavBar -->
+         <nav class="flex justify-between container px-5 md:mx-auto lg:mx-auto py-4 items-center -my-2">
+            <div class="navbar-start flex">
+                <img src="c1-assets/logo-header.png" alt="">
+                <a class="btn btn-ghost text-xl">Browse4Pets</a>
+            </div>
+            <div class="lg:inline hidden navbar-start">
+                <ul class="font-ADLaM flex gap-8">
+                    <li class="font-ADLaM text-xl"><a href="">Find a pet</a></li>
+                    <li class="font-ADLaM text-xl"><a href="">Breeds</a></li>
+                    <li class="font-ADLaM text-xl"><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="lg:flex hidden gap-6 items-center">
+                <i class="fa-regular fa-bell text-[26px] cursor-pointer"></i>
+                <i class="fa-solid fa-magnifying-glass text-2xl cursor-pointer"></i>
+                <button class="btn btn-outline btn-warning px-6 text-xl">
+                    Login
+                </button>
+                <button class="btn btn-warning px-6 text-xl">
+                    Register
+                </button>
+            </div>
+            <i class="fa-solid fa-bars text-3xl lg:hidden "></i>
+         </nav>
     </header>
+
     <!-- Main Section -->
     <main class="md:container mx-auto">
+    <!-- Hero Section -->
+    <section>
+        <div class="container mx-auto my-4 lg:h-screen h-[700px]">
+           <div class="relative flex flex-col-reverse">
+               <img class="absolute lg:top-0 top-64 w-full" src="c1-assets/cat-big.png" alt="">
+               <div class="absolute top-0 bottom-0 lg:pt-24 ml-3 mt-9">
+                <h1 class="lg:text-5xl text-4xl font-bold lg:leading-[60px">
+                    Pamper Your Pet,<br>
+                    Because They Deserve<br>
+                    the Bes
+                </h1>
+                <p class="text-xl font-light text-gray-500 lg:w-[620px] my-4">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <button class="btn btn-warning text-xl mt-3 px-9">
+                    Find a pet
+                </button>
+               </div>
+           </div>
+       </div>
+    </section>
 
     </main>
     <!-- Footer Section -->
